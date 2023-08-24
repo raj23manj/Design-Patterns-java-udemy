@@ -18,3 +18,5 @@
       
         - Prototype pattern
           create only one object and clone it and give
+        - Factory Design Pattern(class/method)
+          files DB.java(method), FactoryDesignPattern, DatabaseFactory
