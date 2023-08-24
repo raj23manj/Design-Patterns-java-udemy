@@ -7,3 +7,14 @@
 5) Delegation Principle
 6) SOLID 
    - single responsibility
+   - open for extension closed for modification
+   - Liskov substitution principle
+   - Interface seggregation
+   - Dependency Inversion
+     
+7) ### Design Patterns
+
+      #### Structural Patterns
+      
+        - Prototype pattern
+          create only one object and clone it and give
