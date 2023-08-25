@@ -32,4 +32,5 @@
           singleton instance, to avoid this add a method `readresolve`. 
           Using reflection api we can get the constructor of the class and get a new instance, to avoid this we can use a Enum singleton, but serializatoin problem
           discused above will exisits, and no classes can inherit from this ENUM. If there is private variables with getters and setters in Enum class that won't get
-          serialized
+          serialized. 
+          To handle exception while object creation use static block, this is ideal way of creating a singleton instance.
