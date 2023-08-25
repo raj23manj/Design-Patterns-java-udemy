@@ -18,5 +18,7 @@
       
         - Prototype pattern
           create only one object and clone it and give
+        - Builder pattern
+          has a director -> concrete builder -> interface(abstract class) -> entity
         - Factory Design Pattern(class/method)
           files DB.java(method), FactoryDesignPattern, DatabaseFactory
