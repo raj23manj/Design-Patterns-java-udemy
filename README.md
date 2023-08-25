@@ -12,7 +12,8 @@
    - Interface seggregation
    - Dependency Inversion
 7) UML & Sequence Diagram: 
-   UML => 6.07 association(aggregation, composition)
+   ##### UML
+   - UML => 6.07 association(aggregation, composition)
           example => 1) Teacher teaches a subject(teacher without teacing anything cannot exisit) this is assosition
                      2) A department can have teacher, a teacher can exisit without a department, this is aggregation
                      3) A Department must have a department manager, if there is no department then no manager, this is composition  
@@ -28,4 +29,5 @@
           files DB.java(method), FactoryDesignPattern, DatabaseFactory
         - Singleton pattern
           make constructor private, access instace using a getter. When Singleton class implements serialiseable, when seriliasing and deserialising we will get two
-          singleton instance, to avoid this add a method `readresolve`
+          singleton instance, to avoid this add a method `readresolve`. 
+          Using reflection api we can get the constructor of the class and get a new instance
