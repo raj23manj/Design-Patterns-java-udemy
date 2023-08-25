@@ -35,5 +35,6 @@
           serialized. 
           To handle exception while object creation use static block, this is ideal way of creating a singleton instance. This way the instance gets created at class
           loading
-          We can create lazy singleton, meaning create the singlenton instance only when we need it and not before, there is issue in multithreaded env, and threads can
-          create multiple instances to avoid this, we can make the method as `synchronised`
+          We can create lazy singleton, meaning create the singlenton instance only when we need it and not before, there is issue in multi-threaded env(race condition),
+          and threads can create multiple instances to avoid this, we can make the method as `synchronised`. There is another way to avoid this problem, by using inner
+          static singleton class, this will give us only one instace and thread safety is assured
