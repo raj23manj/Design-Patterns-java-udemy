@@ -11,8 +11,12 @@
    - Liskov substitution principle
    - Interface seggregation
    - Dependency Inversion
-     
-7) ### Design Patterns
+7) UML & Sequence Diagram: 
+   UML => 6.07 association(aggregation, composition)
+          example => 1) Teacher teaches a subject(teacher without teacing anything cannot exisit) this is assosition
+                     2) A department can have teacher, a teacher can exisit without a department, this is aggregation
+                     3) A Department must have a department manager, if there is no department then no manager, this is composition  
+9) ### Design Patterns
 
       #### Structural Patterns
       
