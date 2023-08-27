@@ -38,3 +38,5 @@
           We can create lazy singleton, meaning create the singlenton instance only when we need it and not before, there is issue in multi-threaded env(race condition),
           and threads can create multiple instances to avoid this, we can make the method as `synchronised`. There is another way to avoid this problem, by using inner
           static singleton class, this will give us only one instace and thread safety is assured
+        - Abstract Factory Design Pattern
+          databaseFactory -> Factory -> interface -> impl
