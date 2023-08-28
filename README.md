@@ -19,7 +19,7 @@
                      3) A Department must have a department manager, if there is no department then no manager, this is composition  
 9) ### Design Patterns
 
-      #### Structural Patterns
+      #### Creational Patterns
       
         - Prototype pattern
           create only one object and clone it and give
@@ -40,3 +40,8 @@
           static singleton class, this will give us only one instace and thread safety is assured
         - Abstract Factory Design Pattern
           databaseFactory -> Factory -> interface -> impl
+
+     #### Behavioural Design Patterns 
+          They are more towards the interaction and responsibility of objects in such a way that they can easily talk to each other and still should be loosely coupled.
+   
+        - 
