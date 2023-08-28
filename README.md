@@ -44,4 +44,5 @@
      #### Behavioural Design Patterns 
           They are more towards the interaction and responsibility of objects in such a way that they can easily talk to each other and still should be loosely coupled.
    
-        - 
+        - Chain of responsibility
+          we can use this in situations when switch cases/ ifElse are used. Example Loan -> LoanApproval(interface) -> Manager -> Director -> VP  
