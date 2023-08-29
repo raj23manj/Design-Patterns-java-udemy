@@ -66,3 +66,7 @@
         - Observer Design Pattern
          Subject will have observers, if one object changes/unchanges the subject will notify all the observers subscribed to
          subject(interface), observer(interface)
+        - State Design Pattern
+         Used to alter an objects bhevaiour when its internal state changes
+         context class -> state(interface)
+         
