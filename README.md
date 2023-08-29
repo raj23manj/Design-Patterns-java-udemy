@@ -69,4 +69,5 @@
         - State Design Pattern
          Used to alter an objects bhevaiour when its internal state changes
          context class -> state(interface)
+         Employee -> Manager, HR, Developer(have different behaviour)
          
