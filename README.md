@@ -62,4 +62,7 @@
          Used to restore object to previous state(undo/rollback state)
          entity -> Originator(sends current state) -> Memonto(stores state in) -> CareTaker
          But In sequence: 
-         CareTaker -> originator -> memnto 
+         CareTaker -> originator -> memnto
+        - Observer Design Pattern
+         Subject will have observers, if one object changes/unchanges the subject will notify all the observers subscribed to
+         subject(interface), observer(interface)
