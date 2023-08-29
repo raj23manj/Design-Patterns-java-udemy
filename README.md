@@ -60,4 +60,6 @@
          bay calling the other user by matching. user -> mediator -> user
         - Memento Design Pattern
          Used to restore object to previous state(undo/rollback state)
-         Originator(sends current state) -> Memonto(stores state in) -> CareTaker
+         entity -> Originator(sends current state) -> Memonto(stores state in) -> CareTaker
+         But In sequence: 
+         CareTaker -> originator -> memnto 
