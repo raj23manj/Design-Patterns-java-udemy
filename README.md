@@ -59,4 +59,4 @@
           A mediator is present between the objects to communicate between objects. The user objects sends message to mediatior and the mediator inturn sends messages
          bay calling the other user by matching. user -> mediator -> user
         - Memento Design Pattern
-         Uswd to restore object to previous state
+         Used to restore object to previous state(undo/rollback state)
