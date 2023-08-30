@@ -75,3 +75,6 @@
          Context -> interface -> impl
         - Template design pattern
          used when there is a sketch of operations and leave the details to be implemented for the child
+        - Visitor Design pattern
+         used to perform operation on a group of similar objects. With this pattern we can the operational logic from objects to another class
+         use case => when ceo visists employees froma a list oneby one and gives performance apprisals
