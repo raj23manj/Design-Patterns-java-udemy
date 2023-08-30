@@ -78,3 +78,7 @@
         - Visitor Design pattern
          used to perform operation on a group of similar objects. With this pattern we can the operational logic from objects to another class
          use case => when ceo visists employees froma a list oneby one and gives performance apprisals
+         client -> visitor interface(visit) -> impl
+          |
+          V
+         object structure -> element(accept) -> impl
