@@ -82,3 +82,6 @@
           |
           V
          object structure -> element(accept) -> impl
+   
+      #### Structural design patterns
+        Are towards ease of design by identifying a simple wasy to create relationships between entities.
