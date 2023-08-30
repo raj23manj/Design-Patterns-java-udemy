@@ -70,4 +70,8 @@
          Used to alter an objects bhevaiour when its internal state changes
          context class -> state(interface)
          Employee -> Manager, HR, Developer(have different behaviour)
-         
+        - Strategy Design pattern
+         Used when we have multiple solutions/algos to solve a a specific task 
+         Context -> interface -> impl
+        - Template design pattern
+         used when there is a sketch of operations and leave the details to be implemented for the child
