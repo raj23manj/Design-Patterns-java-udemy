@@ -85,3 +85,5 @@
    
       #### Structural design patterns
         Are towards ease of design by identifying a simple wasy to create relationships between entities.
+        - Adapter Design patter
+          client -> impl -> adapter -> adaptee
