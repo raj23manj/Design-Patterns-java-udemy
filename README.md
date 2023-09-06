@@ -87,3 +87,8 @@
         Are towards ease of design by identifying a simple wasy to create relationships between entities.
         - Adapter Design patter
           client -> impl -> adapter -> adaptee
+        - Bridge Design Pattern
+         abstraction -> concrete abstraction
+         |
+         Implementor -> concrete implementor
+
