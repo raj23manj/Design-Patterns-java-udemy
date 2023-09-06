@@ -91,4 +91,6 @@
          abstraction -> concrete abstraction
          |
          Implementor -> concrete implementor
-
+        - Composite Design Pattern
+          like book and pages, Folder and files. Both can have same opratoins but one contains the other
+         
